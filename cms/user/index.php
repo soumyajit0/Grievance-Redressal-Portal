@@ -38,7 +38,7 @@ exit();
 <!-- [ auth-signin ] start -->
 <div class="auth-wrapper">
 	<div class="auth-content text-center">
-		<h4>Grievance Redressal Portal<hr /><span style="color:#fff;"> User Login</span></h4>
+		<h4>Grievance Redressal Portal<hr /><span style="color:#132043;"> User Login</span></h4>
 		<div class="card borderless">
 			<div class="row align-items-center ">
 				<div class="col-md-12">
@@ -49,14 +49,14 @@ exit();
 						<hr>
 						<div class="form-group mb-3">
 							
-							<input type="email" name="emailid" id="emailid" class="form-control" onBlur="emailAvailability()" required placeholder="Enter Register Email ID">
+							<input type="email" name="emailid" id="emailid" class="form-control" onBlur="emailAvailability()" required placeholder="Enter Registered Email Address">
 						</div>
 						<div class="form-group mb-4">
 							
 							<input type="password" name="inputuserpwd" class="form-control" required placeholder="Enter Password">
 						</div>
 						
-						<button class="btn btn-block btn-primary mb-4"  type="submit" name="submit">Sign In</button>
+						<button class="btn btn-block btn-primary mb-4"  type="submit" name="submit">Log In</button>
 						<hr>
 						<p class="mb-2 text-muted">Forgot password? <a href="reset-password.php" class="f-w-400">Reset</a></p>
 
@@ -69,7 +69,7 @@ exit();
 		          
 					</div></form>
 		
-		                <i class="fa fa-home" aria-hidden="true"><a class="" href="../index.php">
+		                <i class="fa fa-home" aria-hidden="true"><a class="" href="../refresh.php">
 		                    Back Home
 		                </a></i>
 		            

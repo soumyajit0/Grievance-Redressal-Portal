@@ -2712,14 +2712,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: #D988B9;
+    border-color: #D988B9;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #159a80;
-    border-color: #148f77;
+    background-color: #B0578D;
+    border-color: #B0578D;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -4805,7 +4805,7 @@ input[type="button"].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #FFF6F6;
     background-clip: border-box;
     border: 0px solid rgba(0, 0, 0, 0.125);
     border-radius: 2px;
@@ -5209,12 +5209,12 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
     color: #fff;
-    background-color: #1abc9c;
+    background-color: #D988B9;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
     color: #fff;
-    background-color: #148f77;
+    background-color: #B0578D;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -27637,8 +27637,7 @@ text.highcharts-drilldown-data-label {
     overflow: hidden;
     min-width: 100%;
     min-height: 100vh;
-    background: #1abc9c;
-    background-image: url("../images/auth/img-auth-big.jpg");
+    background: #F8E8EE;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

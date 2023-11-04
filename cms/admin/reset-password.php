@@ -45,7 +45,7 @@ return true;
 <!-- [ auth-signin ] start -->
 <div class="auth-wrapper">
 	<div class="auth-content text-center">
-			<h4>Complaint management system <hr /><span style="color:#fff;"> Admin Password Recovery</span></h4>
+			<h4>Grievance Redressal Portal<hr /><span style="color:#132043;"> Admin Password Recovery</span></h4>
 						<hr>
 		<div class="card borderless">
 			<div class="row align-items-center ">
@@ -69,7 +69,7 @@ return true;
 						
 						<button class="btn btn-block btn-primary mb-4"  type="submit" name="resetpwd">Reset</button>
 						<hr>
-						<p class="mb-2 text-muted"><a href="index.php" class="f-w-400">Signin</a></p>
+						<p class="mb-2 text-muted"><a href="index.php" class="f-w-400">Back to Log In</a></p>
 					
 					</div></form>
 				</div>

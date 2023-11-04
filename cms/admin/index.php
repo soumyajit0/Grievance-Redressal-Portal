@@ -30,7 +30,7 @@ echo "<script>alert('Invalid username or password');</script>";
 <!-- [ auth-signin ] start -->
 <div class="auth-wrapper">
 	<div class="auth-content text-center">
-		<h4>Grievance Redressal Portal<hr /><span style="color:#fff;"> Admin Login</span></h4>
+		<h4>Grievance Redressal Portal<hr /><span style="color:#132043;"> Admin Login</span></h4>
 		<div class="card borderless">
 			<div class="row align-items-center ">
 				<div class="col-md-12">
@@ -44,13 +44,13 @@ echo "<script>alert('Invalid username or password');</script>";
 							<input class="form-control" id="password" name="password" type="password" placeholder="Password" required />
 						</div>
 						
-						<button class="btn btn-block btn-primary mb-4"  type="submit" name="submit">Signin</button>
+						<button class="btn btn-block btn-primary mb-4"  type="submit" name="submit">Log in</button>
 						<hr>
-						<p class="mb-2 text-muted">Forgot password? <a href="reset-password.php" class="f-w-400">Reset</a></p>
+						<p class="mb-2 text-muted">Forgot Password? <a href="reset-password.php" class="f-w-400">Reset</a></p>
 					
 					</div></form>
-					  <i class="fa fa-home" aria-hidden="true"><a class="" href="../index.php">
-		                    Back Home
+					  <i class="fa fa-home" aria-hidden="true"><a class="" href="../refresh.php">
+		                    Home
 		                </a></i>
 				</div>
 				

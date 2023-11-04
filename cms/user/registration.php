@@ -40,7 +40,7 @@ error:function (){}
 <!-- [ auth-signin ] start -->
 <div class="auth-wrapper">
 	<div class="auth-content text-center">
-				<h4>Complaint management system <hr /><span style="color:#fff;"> User Registration</span></h4>
+				<h4>Grievance Redressal Portal<hr /><span style="color:#132043;"> User Registration</span></h4>
 				<hr />
 		<div class="card borderless">
 			<div class="row align-items-center ">
@@ -56,7 +56,7 @@ error:function (){}
 						</div>
 						<div class="form-group mb-4">
 							
-							<input type="email" class="form-control" placeholder="Email ID" id="email" onBlur="userAvailability()" name="email" required="required">
+							<input type="email" class="form-control" placeholder="Email Address" id="email" onBlur="userAvailability()" name="email" required="required">
 		             <span id="user-availability-status1" style="font-size:12px;"></span>
 						</div>
 						<div class="form-group mb-3">
@@ -71,7 +71,7 @@ error:function (){}
 						<hr>
 						
 					</div></form>
-					 <i class="fa fa-home" aria-hidden="true"><a class="" href="../index.php">
+					 <i class="fa fa-home" aria-hidden="true"><a class="" href="../refresh.php">
 		                    Back Home
 		                </a></i>
 		</div>
