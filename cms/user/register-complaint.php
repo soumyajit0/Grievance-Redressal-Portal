@@ -29,7 +29,7 @@ $extension = substr($compfile,strlen($compfile)-4,strlen($compfile));
 // allowed extensions
 $allowed_extensions = array(".jpg","jpeg",".png",".gif",".pdf",".PDF",".doc","docx");
 // Validation for allowed extensions .in_array() function searches an array for a specific value.
-if(!in_array($extension,$allowed_extensions))
+if(!empty($compfile) && !in_array($extension,$allowed_extensions))
 {
 echo "<script>alert('Invalid format. Only jpg / jpeg/ png /gif format allowed');</script>";
 }
@@ -49,7 +49,7 @@ while($row=mysqli_fetch_array($sql))
  $cmpn=$row['complaintNumber'];
 }
 $complainno=$cmpn;
-echo '<script> alert("Your complain has been successfully filled and your complaintno is  "+"'.$complainno.'")</script>';
+echo '<script> alert("Your complain has been successfully filled and your Complaint ID is  "+"'.$complainno.'")</script>';
 }
 }
 

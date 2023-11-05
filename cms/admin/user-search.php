@@ -137,12 +137,10 @@ while($row=mysqli_fetch_array($query))
                                         
                                             <td><?php echo htmlentities($row['regDate']);?></td>
 
-<td><a href="javascript:void(0);" onClick="popUpWindow('http://localhost/cms/admin/userprofile.php?uid=<?php echo htmlentities($row['id']);?>');" title="View Details">
-<button type="button" class="btn btn-primary">View Detials</button>
-                                            </a>
-<a href="manage-users.php?uid=<?php echo htmlentities($row['id']);?>&&action=del" title="Delete" onClick="return confirm('Do you really want to delete ?')">
-<button type="button" class="btn btn-danger">Delete</button></a>
+                                        <td><a href="javascript:void(0);" onClick="popUpWindow('userprofile.php?uid=<?php echo htmlentities($row['id']);?>');" title="View Details" class="btn btn-primary  btn-xs">View Detials</a>
+<a href="manage-users.php?uid=<?php echo htmlentities($row['id']);?>&&action=del" title="Delete" onClick="return confirm('All complaints belongs to user will also delete.')" class="btn btn-danger">Delete</a>
 
+<a href="user-complaints.php?uid=<?php echo htmlentities($row['id']);?>&&uname=<?php echo htmlentities($row['fullName']);?>" title="View User Complaints" class="btn btn-info  btn-xs">Complaints</a>
                                         </td>
                                             
 
