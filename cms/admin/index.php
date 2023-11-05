@@ -1,21 +1,19 @@
 <?php session_start();
 //error_reporting(0);
 include("include/config.php");
-if(isset($_POST['submit']))
-{
-	$username=$_POST['username'];
-	$password=md5($_POST['password']);
-$ret=mysqli_query($con,"SELECT * FROM admin WHERE username='$username' and password='$password'");
-$num=mysqli_fetch_array($ret);
-if($num>0)
-{
-$_SESSION['alogin']=$_POST['username'];
-$_SESSION['aid']=$num['id'];
-header("location:dashboard.php");
-}else{
-echo "<script>alert('Invalid username or password');</script>";
-//header("location:index.php");
-}
+if (isset($_POST['submit'])) {
+	$username = $_POST['username'];
+	$password = md5($_POST['password']);
+	$ret = mysqli_query($con, "SELECT * FROM admin WHERE username='$username' and password='$password'");
+	$num = mysqli_fetch_array($ret);
+	if ($num > 0) {
+		$_SESSION['alogin'] = $_POST['username'];
+		$_SESSION['aid'] = $num['id'];
+		header("location:dashboard.php");
+	} else {
+		echo "<script>alert('Invalid username or password');</script>";
+		//header("location:index.php");
+	}
 }
 ?>
 
@@ -30,30 +28,36 @@ echo "<script>alert('Invalid username or password');</script>";
 <!-- [ auth-signin ] start -->
 <div class="auth-wrapper">
 	<div class="auth-content text-center">
-		<h4>Grievance Redressal Portal<hr /><span style="color:#132043;"> Admin Login</span></h4>
+		<h4>Grievance Redressal Portal
+			<hr /><span style="color:#132043;"> Admin Login</span>
+		</h4>
 		<div class="card borderless">
 			<div class="row align-items-center ">
 				<div class="col-md-12">
 					<form method="post">
-					<div class="card-body">
-					
-						<div class="form-group mb-3">
-							<input class="form-control" id="username" name="username" type="text" placeholder="Username" required />
+						<div class="card-body">
+
+							<div class="form-group mb-3">
+								<input class="form-control" id="username" name="username" type="text"
+									placeholder="Username" required />
+							</div>
+							<div class="form-group mb-4">
+								<input class="form-control" id="password" name="password" type="password"
+									placeholder="Password" required />
+							</div>
+
+							<button class="btn btn-block btn-primary mb-4" type="submit" name="submit">Log in</button>
+							<hr>
+							<p class="mb-2 text-muted">Forgot Password? <a href="reset-password.php"
+									class="f-w-400">Reset</a></p>
+
 						</div>
-						<div class="form-group mb-4">
-							<input class="form-control" id="password" name="password" type="password" placeholder="Password" required />
-						</div>
-						
-						<button class="btn btn-block btn-primary mb-4"  type="submit" name="submit">Log in</button>
-						<hr>
-						<p class="mb-2 text-muted">Forgot Password? <a href="reset-password.php" class="f-w-400">Reset</a></p>
-					
-					</div></form>
-					  <i class="fa fa-home" aria-hidden="true"><a class="" href="../refresh.php">
-		                    Home
-		                </a></i>
+					</form>
+					<i class="fa fa-home" aria-hidden="true"><a class="" href="../refresh.php">
+							Home
+						</a></i>
 				</div>
-				
+
 			</div>
 		</div>
 	</div>

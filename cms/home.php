@@ -3,10 +3,10 @@
 
 <head>
    <!-- basic -->
-   
+
    <!-- site metas -->
    <title>Grievance Redressal Portal</title>
-  
+
    <!-- bootstrap css -->
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    <!-- style css -->
@@ -26,7 +26,7 @@
    <link rel="stylesoeet" href="css/owl.theme.default.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen">
-   
+
    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 
@@ -58,13 +58,13 @@
                         <li class="nav-item">
                            <a class="nav-link" href="user/registration.php">User Regsitration</a>
                         </li>
-                       
-                        
+
+
                      </ul>
                   </div>
                </nav>
             </div>
-         
+
          </div>
       </div>
       <!-- banner section start -->
@@ -106,13 +106,14 @@
       <!-- banner section end -->
    </div>
    <!-- header section end -->
-  
-  
+
+
    <!-- footer section end -->
    <!-- copyright section start -->
    <div class="copyright_section">
       <div class="container">
-         <p class="copyright_text">Made with ❤️ by <a href="https://www.linkedin.com/in/soumyajitds/">Soumyajit Dey Sarkar</a></p>
+         <p class="copyright_text">Made with ❤️ by <a href="https://www.linkedin.com/in/soumyajitds/">Soumyajit Dey
+               Sarkar</a></p>
       </div>
    </div>
    <!-- copyright section end -->
