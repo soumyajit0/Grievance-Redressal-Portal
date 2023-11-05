@@ -3,6 +3,9 @@ ADMIN Accounts:
 Username: soumyajit
 Password: admin
 
+Username: poulamimaam
+Password: admin
+
 USER Accounts:
 
 Username: soumyajitdeysarkar@gmail.com

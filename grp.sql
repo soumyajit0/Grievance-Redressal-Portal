@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2023 at 03:06 PM
+-- Generation Time: Nov 05, 2023 at 12:04 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `cms`
+-- Database: `grp`
 --
 
 -- --------------------------------------------------------
@@ -43,7 +43,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `fullname`, `mobilenumber`, `email`, `username`, `password`, `creationDate`, `updationDate`) VALUES
-(1, 'Soumyajit Dey Sarkar', 7980032335, 'soumyajitdeysarkar@gmail.com', 'soumyajit', '21232f297a57a5a743894a0e4a801fc3', '2023-11-03 05:16:16', '04-11-2023 04:18:16');
+(1, 'Soumyajit Dey Sarkar', 7980032335, 'soumyajitdeysarkar@gmail.com', 'soumyajit', '21232f297a57a5a743894a0e4a801fc3', '2023-11-03 05:16:16', '04-11-2023 04:18:16'),
+(2, 'Poulami Dutta', 8970378332, 'poulami.dutta@gmail.com', 'poulamimaam', '21232f297a57a5a743894a0e4a801fc3', '2023-11-05 10:26:25', '');
 
 -- --------------------------------------------------------
 
@@ -87,16 +88,6 @@ CREATE TABLE `complaintremark` (
   `remark` mediumtext DEFAULT NULL,
   `remarkDate` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data for table `complaintremark`
---
-
-INSERT INTO `complaintremark` (`id`, `complaintNumber`, `status`, `remark`, `remarkDate`) VALUES
-(1, 3, 'in process', 'your ticket forward to associated team', '2023-09-15 13:05:38'),
-(2, 3, 'closed', 'Ticket close in favor of user', '2023-09-15 13:06:31'),
-(3, 5, 'in process', 'We are reviewing the complaint', '2023-10-01 04:12:48'),
-(4, 5, 'closed', 'Issue resolved', '2023-10-01 04:13:12');
 
 -- --------------------------------------------------------
 
@@ -228,6 +219,13 @@ CREATE TABLE `tblcomplaints` (
   `lastUpdationDate` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+--
+-- Dumping data for table `tblcomplaints`
+--
+
+INSERT INTO `tblcomplaints` (`complaintNumber`, `userId`, `category`, `subcategory`, `complaintType`, `state`, `noc`, `complaintDetails`, `complaintFile`, `regDate`, `status`, `lastUpdationDate`) VALUES
+(1, 2, 9, 'Public transportation', 'General Query', 'West Bengal', 'Question', 'When will Sealdah to Howrah metro start?', 'd41d8cd98f00b204e9800998ecf8427e', '2023-11-05 11:01:33', NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -255,7 +253,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fullName`, `userEmail`, `password`, `contactNo`, `address`, `State`, `country`, `pincode`, `userImage`, `regDate`, `updationDate`, `status`) VALUES
-(7, 'Soumyajit Dey Sarkar', 'soumyajitdeysarkar@gmail.com', 'ee11cbb19052e40b07aac0ca060c23ee', 7980032335, NULL, NULL, NULL, NULL, NULL, '2023-11-03 14:05:19', NULL, 1);
+(2, 'Soumyajit Dey Sarkar', 'soumyajitdeysarkar@gmail.com', 'ee11cbb19052e40b07aac0ca060c23ee', 7980032335, '19 Ghatak Road, Kanchrapara.', 'West Bengal', 'India', 743145, NULL, '2023-11-05 10:37:27', NULL, 1);
 
 --
 -- Indexes for dumped tables
@@ -311,7 +309,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `category`
@@ -323,7 +321,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `complaintremark`
 --
 ALTER TABLE `complaintremark`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `state`
@@ -341,13 +339,13 @@ ALTER TABLE `subcategory`
 -- AUTO_INCREMENT for table `tblcomplaints`
 --
 ALTER TABLE `tblcomplaints`
-  MODIFY `complaintNumber` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `complaintNumber` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
