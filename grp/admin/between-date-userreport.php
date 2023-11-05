@@ -148,7 +148,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                                                         </td>
 
                                                                         <td><a href="javascript:void(0);"
-                                                                                onClick="popUpWindow('http://localhost/cms/admin/userprofile.php?uid=<?php echo htmlentities($row['id']); ?>');"
+                                                                                onClick="popUpWindow('http://localhost/grp/admin/userprofile.php?uid=<?php echo htmlentities($row['id']); ?>');"
                                                                                 title="View Details">
                                                                                 <button type="button" class="btn btn-primary">View
                                                                                     Detials</button>
