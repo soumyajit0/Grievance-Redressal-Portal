@@ -66,12 +66,12 @@ $num1 = mysqli_num_rows($rt);
 										<img src="assets/images/user/user-gear.png" class="img-radius" alt="User-Profile-Image">
 										<?php
 
-$ret=mysqli_query($con,"select fullname from admin");
-$row=mysqli_fetch_array($ret);
-$name=$row['fullname'];
+// $ret=mysqli_query($con,"select fullname from admin");
+// $row=mysqli_fetch_array($ret);
+// $name=$row['fullname'];
 
 ?>
-										<span> <?php echo $name; ?></span>
+										<!-- <span> <?php echo $name; ?></span> -->
 										<a href="logout.php" class="dud-logout" title="Logout">
 											<i class="feather icon-log-out"></i>
 										</a>
