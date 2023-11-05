@@ -5,7 +5,7 @@
 					<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
 					<a href="dashboard.php" class="b-brand">
 						<!-- ========   change your logo hear   ============ -->
-						<strong>Complaint Management</strong>
+						<strong>Griievance Redressal Portal</strong>
 					</a>
 					<a href="#!" class="mob-toggler">
 						<i class="feather icon-more-vertical"></i>
@@ -51,7 +51,7 @@ $num1 = mysqli_num_rows($rt);
 									
 									</ul>
 									<div class="noti-footer">
-										<a href="#!">show all</a>
+										<a href="#!">Show All</a>
 									</div>
 								</div>
 							</div>

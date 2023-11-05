@@ -77,7 +77,7 @@ $name=$row['fullname'];
 										</a>
 									</div>
 									<ul class="pro-body">
-										<li><a href="admin-profile.php" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
+										<li><a href="profile.php" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
 										<li><a href="setting.php" class="dropdown-item"><i class="feather icon-mail"></i> Settings</a></li>
 										<li><a href="logout.php" class="dropdown-item"><i class="feather icon-lock"></i> Logout</a></li>
 									</ul>
