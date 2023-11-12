@@ -17308,7 +17308,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @    font-face {
+  @font-face {
         font-family: "Flaticon";
         src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
     }
@@ -27637,7 +27637,8 @@ text.highcharts-drilldown-data-label {
     overflow: hidden;
     min-width: 100%;
     min-height: 100vh;
-    background: #F8E8EE;
+    /* background: #F8E8EE; */
+    background-image: url('../images/adminback.gif');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
 		$_SESSION['aid'] = $num['id'];
 		header("location:dashboard.php");
 	} else {
-		echo "<script>alert('Invalid username or password');</script>";
+		echo "<script>alert('Invalid Username or Password');</script>";
 		//header("location:index.php");
 	}
 }
