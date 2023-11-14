@@ -14,7 +14,7 @@ if (strlen($_SESSION['id']) == 0) {
     <html lang="en">
 
     <head>
-        <title>Grievance Redressal Portal | Complaint Details</title>
+        <title>Grievance Redressal Portal | Grievance Details</title>
 
 
         <!-- vendor css -->
@@ -48,12 +48,12 @@ if (strlen($_SESSION['id']) == 0) {
                         <div class="row align-items-center">
                             <div class="col-md-12">
                                 <div class="page-header-title">
-                                    <h5 class="m-b-10">Complaint Details</h5>
+                                    <h5 class="m-b-10">Grievance Details</h5>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="dashboard.php"><i
                                                 class="feather icon-home"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="complaint-history.php">Complaint Details</a></li>
+                                    <li class="breadcrumb-item"><a href="complaint-history.php">Grievance Details</a></li>
 
                                 </ul>
                             </div>
@@ -69,7 +69,7 @@ if (strlen($_SESSION['id']) == 0) {
                         <div class="card">
 
                             <div class="card-body">
-                                <h5>View Complaint Details</h5>
+                                <h5>View Grievance Details</h5>
                                 <hr>
 
                                 <div class="row">
@@ -90,7 +90,7 @@ if (strlen($_SESSION['id']) == 0) {
 
                                                                 ?>
                                                                 <tr>
-                                                                    <td><b>Complaint Number</b></td>
+                                                                    <td><b>Grievance Number</b></td>
                                                                     <td>
                                                                         <?php echo htmlentities($row['complaintNumber']); ?>
                                                                     </td>
@@ -113,7 +113,7 @@ if (strlen($_SESSION['id']) == 0) {
                                                                     <td>
                                                                         <?php echo htmlentities($row['subcategory']); ?>
                                                                     </td>
-                                                                    <td><b>Complaint Type</b></td>
+                                                                    <td><b>Grievance Type</b></td>
                                                                     <td>
                                                                         <?php echo htmlentities($row['complaintType']); ?>
                                                                     </td>
@@ -123,14 +123,14 @@ if (strlen($_SESSION['id']) == 0) {
                                                                     <td>
                                                                         <?php echo htmlentities($row['state']); ?>
                                                                     </td>
-                                                                    <td><b>Nature of Complaint</b></td>
+                                                                    <td><b>Nature of Grievance</b></td>
                                                                     <td colspan="3">
                                                                         <?php echo htmlentities($row['noc']); ?>
                                                                     </td>
 
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><b>Complaint Details </b></td>
+                                                                    <td><b>Grievance Details </b></td>
 
                                                                     <td colspan="5">
                                                                         <?php echo htmlentities($row['complaintDetails']); ?>

@@ -73,7 +73,7 @@
             <div id="main_slider" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <h1 class="banner_taital">Complaints Welcome, Solutions Guaranteed!</h1>
+                     <h1 class="banner_taital">Grievances Welcome, Solutions Guaranteed!</h1>
                      <div class="read_bt"></div>
                      <div class="number_main">
                         <div class="number_text">01</div>
@@ -87,7 +87,7 @@
                      </div>
                   </div>
                   <div class="carousel-item">
-                     <h1 class="banner_taital">Today's Complaints Fuel Tomorrow's Improvement!</h1>
+                     <h1 class="banner_taital">Today's Grievances Fuel Tomorrow's Improvement!</h1>
                      <div class="read_bt"></div>
                      <div class="number_main">
                         <div class="number_text">03</div>

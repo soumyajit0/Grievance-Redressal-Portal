@@ -66,7 +66,7 @@ if (strlen($_SESSION['id']) == 0) {
                                     <h4>
                                         <?php echo $totcom; ?>
                                     </h4>
-                                    <h6>Total Complaints</h6>
+                                    <h6>Total Grievances</h6>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ if (strlen($_SESSION['id']) == 0) {
                                     <h4>
                                         <?php echo $inprocesscom; ?>
                                     </h4>
-                                    <h6>Inprocess Complaints</h6>
+                                    <h6>Inprocess Grievances</h6>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ if (strlen($_SESSION['id']) == 0) {
                                     <h4>
                                         <?php echo $closedcom; ?>
                                     </h4>
-                                    <h6>Closed Complaints</h6>
+                                    <h6>Closed Grievances</h6>
                                 </div>
                             </div>
                         </div>
