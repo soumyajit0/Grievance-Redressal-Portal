@@ -5,7 +5,7 @@
 		<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
 		<a href="dashboard.php" class="b-brand">
 			<!-- ========   change your logo hear   ============ -->
-			<strong>Griievance Redressal Portal</strong>
+			<strong>Grievance Redressal Portal</strong>
 		</a>
 		<a href="#!" class="mob-toggler">
 			<i class="feather icon-more-vertical"></i>

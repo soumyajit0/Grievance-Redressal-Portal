@@ -71,7 +71,7 @@ if (strlen($_SESSION['id']) == 0) {
     <html lang="en">
 
     <head>
-        <title>Grievance Redressal Portal | Register Complaint</title>
+        <title>Grievance Redressal Portal | Register Grievance</title>
 
 
         <!-- vendor css -->
@@ -110,12 +110,12 @@ if (strlen($_SESSION['id']) == 0) {
                         <div class="row align-items-center">
                             <div class="col-md-12">
                                 <div class="page-header-title">
-                                    <h5 class="m-b-10">Register Complaint</h5>
+                                    <h5 class="m-b-10">Register Grievance</h5>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="dashboard.php"><i
                                                 class="feather icon-home"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="register-complaint.php">Register Complaint</a></li>
+                                    <li class="breadcrumb-item"><a href="register-complaint.php">Register Grievance</a></li>
 
                                 </ul>
                             </div>
@@ -130,7 +130,7 @@ if (strlen($_SESSION['id']) == 0) {
                     <div class="col-sm-12">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Register Complaint</h5>
+                                <h5>Register Grievance</h5>
                             </div>
                             <div class="card-body">
                                 <div class="row">

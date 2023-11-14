@@ -75,17 +75,17 @@
 
 
 				<li class="nav-item pcoded-menu-caption">
-					<label>User Complaints</label>
+					<label>User Grievances</label>
 				</li>
 
 
 				<li class="nav-item pcoded-hasmenu">
 					<a href="#!" class="nav-link "><span class="pcoded-micon"><i
 								class="feather icon-box"></i></span><span class="pcoded-mtext">Manage
-							Complaint</span></a>
+							Grievance</span></a>
 					<ul class="pcoded-submenu">
 						<li>
-							<a href="all-complaint.php">All Complaints</a>
+							<a href="all-complaint.php">All Grievances</a>
 						</li>
 						<li>
 							<a href="notprocess-complaint.php">Not Process Yet</a>
@@ -94,7 +94,7 @@
 							<a href="inprocess-complaint.php">In Process</a>
 						</li>
 
-						<li><a href="closed-complaint.php">Closed Complaints</a></li>
+						<li><a href="closed-complaint.php">Closed Grievances</a></li>
 
 					</ul>
 				</li>
@@ -108,7 +108,7 @@
 				</li>
 				<li class="nav-item">
 					<a href="between-date-complaintreport.php" class="nav-link "><span class="pcoded-micon"><i
-								class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Complaints
+								class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Grievances
 							Report</span></a>
 				</li>
 				<li class="nav-item pcoded-menu-caption">
@@ -121,7 +121,7 @@
 				<li class="nav-item">
 					<a href="complaint-search.php" class="nav-link "><span class="pcoded-micon"><i
 								class="feather icon-search"></i></span><span class="pcoded-mtext">Search
-							Complaint</span></a>
+							Grievances</span></a>
 				</li>
 
 

@@ -38,10 +38,10 @@ while($row=mysqli_fetch_array($query))
 					</li>
 					
 					<li class="nav-item">
-					    <a href="register-complaint.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Lodge Complaint</span></a>
+					    <a href="register-complaint.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Lodge Grievance</span></a>
 					</li>
 					<li class="nav-item">
-					    <a href="complaint-history.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Complaint History</span></a>
+					    <a href="complaint-history.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Grievance History</span></a>
 					</li>
 
 				</ul>
