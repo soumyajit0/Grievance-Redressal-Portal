@@ -13,7 +13,7 @@ if (strlen($_SESSION['aid']) == 0) {
     <html lang="en">
 
     <head>
-        <title>Grievance Redressal Portal | Search Complaints</title>
+        <title>Grievance Redressal Portal | Search Grievances</title>
 
 
         <!-- vendor css -->
@@ -47,12 +47,12 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="row align-items-center">
                             <div class="col-md-12">
                                 <div class="page-header-title">
-                                    <h5 class="m-b-10">Search Complaints</h5>
+                                    <h5 class="m-b-10">Search Grievances</h5>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="dashboard.php"><i
                                                 class="feather icon-home"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="complaint-search.php">Search Complaints</a></li>
+                                    <li class="breadcrumb-item"><a href="complaint-search.php">Search Grievances</a></li>
 
                                 </ul>
                             </div>
@@ -68,7 +68,7 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="card">
 
                             <div class="card-body">
-                                <h5>Search Complaints</h5>
+                                <h5>Search Grievances</h5>
                                 <hr>
                                 <div class="card-body">
                                     <form method="post">
@@ -76,7 +76,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                             <div class="col-2">Search</div>
                                             <div class="col-8">
                                                 <input class="form-control" type="search" name="search"
-                                                    placeholder="Search By Complaint Number / Complainant name / Complainant number "
+                                                    placeholder="Search By Grievance Number / Complainant name / Complainant number "
                                                     required="true">
                                             </div>
                                         </div>
@@ -108,7 +108,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                                             <thead>
                                                                 <tr>
                                                                     <th>S.No</th>
-                                                                    <th>Complaint No</th>
+                                                                    <th>Grievance No</th>
                                                                     <th>Complainant Name</th>
                                                                     <th>Reg Date</th>
                                                                     <th>Status</th>

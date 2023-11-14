@@ -158,7 +158,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         <?php echo $totcom; ?>
                                     </h4>
                                     <a href="all-complaint.php">
-                                        <h6>Total Complaints</h6>
+                                        <h6>Total Grievances</h6>
                                     </a>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         <?php echo $newcom; ?>
                                     </h4>
                                     <a href="notprocess-complaint.php">
-                                        <h6>Pending Complaints</h6>
+                                        <h6>Pending Grievances</h6>
                                     </a>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         <?php echo $inprocesscom; ?>
                                     </h4>
                                     <a href="inprocess-complaint.php">
-                                        <h6>Inprocess Complaints</h6>
+                                        <h6>Inprocess Grievances</h6>
                                     </a>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         <?php echo $closedcom; ?>
                                     </h4>
                                     <a href="closed-complaint.php">
-                                        <h6>Closed Complaints</h6>
+                                        <h6>Closed Grievances</h6>
                                     </a>
                                 </div>
                             </div>

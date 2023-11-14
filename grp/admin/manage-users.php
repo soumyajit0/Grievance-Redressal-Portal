@@ -126,12 +126,12 @@ if (strlen($_SESSION['aid']) == 0) {
                                                                             class="btn btn-primary  btn-xs">View Detials</a>
                                                                         <a href="manage-users.php?uid=<?php echo htmlentities($row['id']); ?>&&action=del"
                                                                             title="Delete"
-                                                                            onClick="return confirm('All complaints belongs to user will also delete.')"
+                                                                            onClick="return confirm('All grievances belongng to this user will also delete.')"
                                                                             class="btn btn-danger">Delete</a>
 
                                                                         <a href="user-complaints.php?uid=<?php echo htmlentities($row['id']); ?>&&uname=<?php echo htmlentities($row['fullName']); ?>"
                                                                             title="View User Complaints"
-                                                                            class="btn btn-info  btn-xs">Complaints</a>
+                                                                            class="btn btn-info  btn-xs">Grievances</a>
                                                                     </td>
 
 

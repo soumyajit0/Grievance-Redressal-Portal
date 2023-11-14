@@ -13,7 +13,7 @@ if (strlen($_SESSION['aid']) == 0) {
     <html lang="en">
 
     <head>
-        <title>Grievance Redressal Portal | Inprocess Complaints</title>
+        <title>Grievance Redressal Portal | Inprocess Grievances</title>
 
 
         <!-- vendor css -->
@@ -47,12 +47,12 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="row align-items-center">
                             <div class="col-md-12">
                                 <div class="page-header-title">
-                                    <h5 class="m-b-10">Inprocess Complaints</h5>
+                                    <h5 class="m-b-10">Inprocess Grievances</h5>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="dashboard.php"><i
                                                 class="feather icon-home"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="inprocess-complaint.php">Inprocess Complaints</a>
+                                    <li class="breadcrumb-item"><a href="inprocess-complaint.php">Inprocess Grievances</a>
                                     </li>
 
                                 </ul>
@@ -69,7 +69,7 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="card">
 
                             <div class="card-body">
-                                <h5>View Inprocess Complaints</h5>
+                                <h5>View Inprocess Grievances</h5>
                                 <hr>
 
                                 <div class="row">
@@ -82,7 +82,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                                         <thead>
                                                             <tr>
                                                                 <th>S.No</th>
-                                                                <th>Complaint No</th>
+                                                                <th>Grievance No</th>
                                                                 <th>Complainant Name</th>
                                                                 <th>Reg Date</th>
                                                                 <th>Status</th>

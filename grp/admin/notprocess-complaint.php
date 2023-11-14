@@ -13,7 +13,7 @@ if (strlen($_SESSION['aid']) == 0) {
     <html lang="en">
 
     <head>
-        <title>Grievance Redressal Portal | Not process yet Complaints</title>
+        <title>Grievance Redressal Portal | Not process yet Grievances</title>
 
 
         <!-- vendor css -->
@@ -53,7 +53,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                     <li class="breadcrumb-item"><a href="dashboard.php"><i
                                                 class="feather icon-home"></i></a></li>
                                     <li class="breadcrumb-item"><a href="notprocess-complaint.php">Not process
-                                            Complaints</a></li>
+                                            Grievances</a></li>
 
                                 </ul>
                             </div>
@@ -69,7 +69,7 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="card">
 
                             <div class="card-body">
-                                <h5>View Not process Complaints</h5>
+                                <h5>View Not process Grievances</h5>
                                 <hr>
 
                                 <div class="row">
@@ -82,7 +82,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                                         <thead>
                                                             <tr>
                                                                 <th>S.No</th>
-                                                                <th>Complaint No</th>
+                                                                <th>Grievance No</th>
                                                                 <th>Complainant Name</th>
                                                                 <th>Reg Date</th>
                                                                 <th>Status</th>

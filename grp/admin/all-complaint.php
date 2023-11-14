@@ -13,7 +13,7 @@ if (strlen($_SESSION['aid']) == 0) {
     <html lang="en">
 
     <head>
-        <title>Grievance Redressal Portal | All Complaints</title>
+        <title>Grievance Redressal Portal | All Grievances</title>
 
 
         <!-- vendor css -->
@@ -52,7 +52,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                 <ul class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="dashboard.php"><i
                                                 class="feather icon-home"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="all-complaint.php">All Complaints</a></li>
+                                    <li class="breadcrumb-item"><a href="all-complaint.php">All Grievances</a></li>
 
                                 </ul>
                             </div>
@@ -68,7 +68,7 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="card">
 
                             <div class="card-body">
-                                <h5>View All Complaints</h5>
+                                <h5>View All Grievances</h5>
                                 <hr>
 
                                 <div class="row">
@@ -81,7 +81,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                                         <thead>
                                                             <tr>
                                                                 <th>S.No</th>
-                                                                <th>Complaint No</th>
+                                                                <th>Grievance No</th>
                                                                 <th>Complainant Name</th>
                                                                 <th>Reg Date</th>
                                                                 <th>Status</th>

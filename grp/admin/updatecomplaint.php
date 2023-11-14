@@ -45,7 +45,7 @@ if (strlen($_SESSION['alogin']) == 0) {
             <td>&nbsp;</td>
           </tr>
           <tr height="50">
-            <td><b>Complaint Number</b></td>
+            <td><b>Grievance Number</b></td>
             <td>
               <?php echo htmlentities($_GET['cid']); ?>
             </td>

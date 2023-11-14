@@ -13,7 +13,7 @@ if (strlen($_SESSION['aid']) == 0) {
     <html lang="en">
 
     <head>
-        <title>Grievance Redressal Portal | Between Dates Complaints Report</title>
+        <title>Grievance Redressal Portal | Between Dates Grievances Report</title>
 
 
         <!-- vendor css -->
@@ -47,13 +47,13 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="row align-items-center">
                             <div class="col-md-12">
                                 <div class="page-header-title">
-                                    <h5 class="m-b-10">Between Dates Complaints Report</h5>
+                                    <h5 class="m-b-10">Between Dates Grievances Report</h5>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="dashboard.php"><i
                                                 class="feather icon-home"></i></a></li>
                                     <li class="breadcrumb-item"><a href="between-date-complaintreport.php">Between Dates
-                                            Complaints Report</a></li>
+                                            Grievances Report</a></li>
 
                                 </ul>
                             </div>
@@ -69,7 +69,7 @@ if (strlen($_SESSION['aid']) == 0) {
                         <div class="card">
 
                             <div class="card-body">
-                                <h5>Between Dates Complaints Report</h5>
+                                <h5>Between Dates Grievances Report</h5>
                                 <hr>
                                 <div class="card-body">
                                     <form method="post">
@@ -111,7 +111,7 @@ if (strlen($_SESSION['aid']) == 0) {
                                                             <thead>
                                                                 <tr>
                                                                     <th>S.No</th>
-                                                                    <th>Complaint No</th>
+                                                                    <th>Grievance No</th>
                                                                     <th>Complainant Name</th>
                                                                     <th>Reg Date</th>
                                                                     <th>Status</th>
