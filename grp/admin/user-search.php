@@ -125,8 +125,8 @@ if (strlen($_SESSION['aid']) == 0) {
                                                             </thead>
                                                             <tbody>
                                                                 <?php $query = mysqli_query($con, "select * from users  where contactNo like '%$search%'|| fullName like '%$search%'|| userEmail like '%$search%'");
-                                                                $count = mysqli_num_rows($query);
-                                                                if ($count > 0) {
+                                                                $cnt = mysqli_num_rows($query);
+                                                                if ($cnt > 0) {
                                                                     while ($row = mysqli_fetch_array($query)) {
                                                                         ?>
                                                                         <tr>
