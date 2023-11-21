@@ -6,8 +6,8 @@ if (strlen($_SESSION["id"]) == 0) {
 
     if (isset($_POST['update'])) {
         $uid = $_SESSION["id"];
-        $currentpassword = $_POST['cpass'];
-        $newpassword = $_POST['newpass'];
+        $currentpassword = md5($_POST['cpass']);
+        $newpassword = md5($_POST['newpass']);
         $ret = mysqli_query($con, "SELECT id FROM users WHERE id='$uid' and password='$currentpassword'");
         $num = mysqli_num_rows($ret);
         if ($num > 0) {
